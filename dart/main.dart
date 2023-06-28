@@ -31,7 +31,7 @@ class Horse with Strong, QuickRunner {}
   Player({
     required this.team,
     required String name,
-  }) : super(name: name);
+  }) : super(name = name);
   @override
   void sayHello() {
     super.sayHello();
