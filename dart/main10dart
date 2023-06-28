@@ -1,0 +1,7 @@
+void main() {
+  String? name;
+  name ??= "nico";
+  name ??= "another";
+  print(name);
+  ;
+}
