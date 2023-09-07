@@ -41,5 +41,5 @@ const superEventHandler = {
 
 title.addEventListener('mouseenter', superEventHandler.handleMouseEnter);
 title.addEventListener('mouseleave', superEventHandler.handleMouseLeave);
-window.addEventListener('mousedown',superEventHandler.handleMouseRightClick);
+window.addEventListener('contextmenu',superEventHandler.handleMouseRightClick);
 window.addEventListener('resize',superEventHandler.handleResize);
